@@ -23,7 +23,6 @@ body {
 
 header {
     background-color: #111;
-    position: relative;
     overflow: hidden;
 }
 
@@ -41,43 +40,36 @@ header {
 .nav-anchors a.active {
     color: #fff;
 }
-.nav {
-    margin: 0 -1em;
-    display: none;
-    text-align: center;
-}
 
 a {
     text-decoration: none;
     color: #7f7f7f;
 }
 
-header .nav {
+.nav-bar {
+    position: relative;
+    overflow: visible;
+    height: 48px;
+}
+
+.nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
     border-top: 1px solid #333;
     clear: right;
-}
-.nav li {
-    position: relative;
+    text-align: left;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25)
 }
 .nav li a {
     display: block;
     padding: 1em;
-    border-top: 1px solid #333;
     -webkit-transition: all 0.3s ease-out;
        -moz-transition: all 0.3s ease-out;
         -ms-transition: all 0.3s ease-out;
          -o-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
-}
-.nav li:first-child a {
-    border-top: 0;
-}
-
-div#header #navigation a {
-    color: black;
-    font-size: 18px;
-    text-decoration: none;
-    height: 100%;
 }
 
 div#footer {
