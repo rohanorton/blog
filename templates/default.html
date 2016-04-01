@@ -1,25 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>My Hakyll Blog - $title$</title>
         <link rel="stylesheet" type="text/css" href="/css/default.css" />
         <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+        <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' />
+        <!--[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" type="text/css" href="enhanced.css" />
+        <![endif]-->
     </head>
     <body>
-        <div id="header">
-            <div id="logo">
-                <a href="/">My Hakyll Blog</a>
-            </div>
-            <div id="navigation">
-                <a href="/">Home</a>
-                <a href="/about.html">About</a>
-                <a href="/contact.html">Contact</a>
-                <a href="/archive.html">Archive</a>
-            </div>
-        </div>
+        <header>
+            <ul id="nav-anchors" class="nav-anchors">
+                <li>
+                    <a href="#nav" id="menu-anchor"><i class="fa fa-bars"></i></a>
+                </li>
+            </ul>
+            <nav id="nav" class="nav">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/archive.html">Archive</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
         <div id="content">
             <h1>$title$</h1>
