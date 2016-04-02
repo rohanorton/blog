@@ -101,7 +101,7 @@ a {
 }
 
 div#footer {
-    border-top: solid 2px black;
+    background-color: #111;
     color: #555;
     font-size: 12px;
     margin-top: 30px;
