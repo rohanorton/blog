@@ -15,10 +15,14 @@ legend {
 }
 /************End Reset**************/
 
+
 body {
     font: 100%/1.5 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif;
     color: #000;
     text-align: center;
+    background-color: #000;
+    background-image: url("https://placekitten.com/375/668");
+    background-attachment: fixed;
 }
 
 header {
@@ -72,6 +76,30 @@ a {
             transition: all 0.3s ease-out;
 }
 
+#content-title {
+    background: linear-gradient(to bottom,rgba(200,0,0,0.4),rgba(40,0,0,0.6));
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-title h1 {
+    color: #fff;
+}
+
+#content-block {
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+}
+
+#content-block p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 div#footer {
     border-top: solid 2px black;
     color: #555;
@@ -82,7 +110,7 @@ div#footer {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 34px;
 }
 
 h2 {
