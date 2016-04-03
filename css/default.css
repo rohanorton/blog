@@ -21,7 +21,8 @@ body {
     color: #000;
     text-align: center;
     background-color: #000;
-    background-image: url("https://placekitten.com/375/668");
+    background-image: url("https://placekitten.com/1375/668");
+    background-size: cover;
     background-attachment: fixed;
 }
 
