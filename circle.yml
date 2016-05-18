@@ -9,5 +9,6 @@ dependencies:
     - stack setup
     - stack build
 
-  test:
+test:
+  override:
     - stack exec site build
